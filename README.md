@@ -2,7 +2,9 @@
 
 ## Overview
 
-This is a learning project based on Webpack and Typescript
+This is a learning project based on Webpack, React.JS and Typescript
+
+As there is a typescript in the project (`'ts-loader'`), no need to use Babel for `jsx` files.
 
 ## Folder Structure
 
@@ -11,7 +13,7 @@ This is a learning project based on Webpack and Typescript
   - **`build`**: Webpack config helpers
 - **`node_modules`**: Node.js modules and dependencies
 - **`public`**: public assets
-- **`src`**: Source code files
+- **`src`**: Source code files.
 
 ## Other files
 
@@ -23,15 +25,24 @@ This is a learning project based on Webpack and Typescript
 
 ## Scripts
 
-To build a project run
+To build a project in development mode:
 
-```npx webpack```
+```npm run build:dev```
 
-To run project:
+To build a project in production mode:
 
-```npm run start```
+```npm run build:prod```
+
+To start development server locally:
+
+```npm start```
 
 ## Artefacts
 
 Built app is located in **`build`** folder
+
+## React components in the project
+
+- no need in `React` import for `jsx` files
+
 

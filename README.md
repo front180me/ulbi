@@ -27,6 +27,10 @@ To build a project run
 
 ```npx webpack```
 
+To run project:
+
+```npm run start```
+
 ## Artefacts
 
 Built app is located in **`build`** folder

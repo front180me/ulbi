@@ -45,4 +45,12 @@ Built app is located in **`build`** folder
 
 - no need in `React` import for `jsx` files
 
+## Dev vs Prod mode
+
+| Property     | Dev mode       | Prod mode                   |
+|--------------|----------------|-----------------------------|
+| CSS          | 'style-loader' | MiniCssExtractPlugin loader |
+| Source map   | +              | -                           |
+| Webpack mode | 'development'  | 'production'                |
+
 

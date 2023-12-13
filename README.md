@@ -15,6 +15,9 @@ As there is a typescript in the project (`'ts-loader'`), no need to use Babel fo
 - **`public`**: public assets
 - **`src`**: Source code files.
 
+## 'src' folder structure
+The project structure is made according feature sliced design methodology.
+
 ## Other files
 
 - `.gitignore`: git settings

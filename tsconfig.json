@@ -8,7 +8,10 @@
     "allowJs": true,
     "moduleResolution": "node",
     // baseUrl for absolute import
-    //"baseUrl": ".",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //  esModuleInterop allows import for common js packets
     "esModuleInterop": true,
     // with "allowSyntheticDefaultImports" of true we can make
